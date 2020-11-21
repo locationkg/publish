@@ -1,0 +1,2005 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://lkg.org/ont/source/baidumap#"
+     xml:base="http://lkg.org/ont/source/baidumap"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:baidumap="http://lkg.org/ont/source/baidumap#">
+    <owl:Ontology rdf:about="http://lkg.org/ont/source/baidumap">
+        <owl:versionIRI rdf:resource="http://lkg.org/ont/source/baidumap/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap#hasParentType -->
+
+    <owl:ObjectProperty rdf:about="http://lkg.org/ont/source/baidumap#hasParentType">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:range rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="en">hasParentType</rdfs:label>
+        <skos:definition xml:lang="en">The parent type of the type.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap#Type -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/source/baidumap#Type">
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">美食</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">茶座</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">咖啡厅</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">蛋糕甜品店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">酒吧</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">外国餐厅</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">中餐厅</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#01007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#01007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#01"/>
+        <rdfs:label xml:lang="zh">小吃快餐店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#02 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#02">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">酒店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#02001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#02001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#02"/>
+        <rdfs:label xml:lang="zh">快捷酒店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#02002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#02002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#02"/>
+        <rdfs:label xml:lang="zh">星级酒店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#02003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#02003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#02"/>
+        <rdfs:label xml:lang="zh">公寓式酒店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#02004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#02004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#02"/>
+        <rdfs:label xml:lang="zh">民宿</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">购物</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">家居建材</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">市场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">百货商场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">家电数码</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">购物中心</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">便利店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">超市</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#03008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#03008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#03"/>
+        <rdfs:label xml:lang="zh">商铺</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">生活服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">通讯营业厅</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">邮局</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">物流公司</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">售票处</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">洗衣店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">图文快印店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">照相馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">房产中介机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">公用事业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">维修点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">家政服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04012 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04012">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">殡葬服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04013 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04013">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">彩票销售点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04014 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04014">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">宠物服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04015 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04015">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">报刊亭</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04016 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04016">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">公共厕所</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#04017 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#04017">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#04"/>
+        <rdfs:label xml:lang="zh">步骑行专用道驿站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#05 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#05">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">丽人</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#05001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#05001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#05"/>
+        <rdfs:label xml:lang="zh">美容</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#05002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#05002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#05"/>
+        <rdfs:label xml:lang="zh">美发</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#05003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#05003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#05"/>
+        <rdfs:label xml:lang="zh">美甲</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#05004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#05004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#05"/>
+        <rdfs:label xml:lang="zh">美体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">旅游景点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">公园</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">动物园</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">植物园</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">游乐园</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">博物馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">水族馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">海滨浴场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">文物古迹</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">教堂</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">风景区</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">景点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#06012 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#06012">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#06"/>
+        <rdfs:label xml:lang="zh">寺庙</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">休闲娱乐</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">度假村</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">农家院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">电影院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">ktv</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">剧院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">歌舞厅</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">网吧</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">游戏场所</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">洗浴按摩</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#07010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#07010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#07"/>
+        <rdfs:label xml:lang="zh">休闲广场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#08 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#08">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">运动健身</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#08001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#08001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#08"/>
+        <rdfs:label xml:lang="zh">体育场馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#08002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#08002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#08"/>
+        <rdfs:label xml:lang="zh">极限运动场所</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#08003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#08003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#08"/>
+        <rdfs:label xml:lang="zh">健身中心</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">教育培训</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">高等院校</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">中学</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">小学</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">幼儿园</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">成人教育</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">亲子教育</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">特殊教育学校</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">留学中介机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">科研机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">培训机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">图书馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#09012 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#09012">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#09"/>
+        <rdfs:label xml:lang="zh">科技馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">文化传媒</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">新闻出版</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">广播电视</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">艺术团体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">美术馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">展览馆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#10006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#10006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#10"/>
+        <rdfs:label xml:lang="zh">文化宫</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">医疗</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">体检机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">专科医院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">诊所</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">急救中心</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">药店</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">疾控中心</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">综合医院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">疗养院</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">医疗器械</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#11010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#11010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#11"/>
+        <rdfs:label xml:lang="zh">医疗保健</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">汽车服务</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车租赁</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车检测场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车维修</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车销售</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车配件</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#12006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#12006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#12"/>
+        <rdfs:label xml:lang="zh">汽车美容</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">交通设施</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">飞机场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">火车站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">地铁站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">地铁线路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">长途汽车站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">公交车站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">公交线路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">港口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">停车场</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">加油加气站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">服务区</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13012 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13012">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">收费站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13013 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13013">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">桥</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13014 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13014">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">充电站</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13015 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13015">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">路侧停车位</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13016 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13016">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">普通停车位</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#13017 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#13017">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#13"/>
+        <rdfs:label xml:lang="zh">接送点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">金融</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#14"/>
+        <rdfs:label xml:lang="zh">银行</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#14"/>
+        <rdfs:label xml:lang="zh">atm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#14"/>
+        <rdfs:label xml:lang="zh">信用社</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#14"/>
+        <rdfs:label xml:lang="zh">投资理财</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#14005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#14005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#14"/>
+        <rdfs:label xml:lang="zh">典当行</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#15 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#15">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">房地产</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#15001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#15001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#15"/>
+        <rdfs:label xml:lang="zh">住宅区</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#15002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#15002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#15"/>
+        <rdfs:label xml:lang="zh">写字楼</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#15003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#15003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#15"/>
+        <rdfs:label xml:lang="zh">宿舍</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#15004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#15004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#15"/>
+        <rdfs:label xml:lang="zh">内部楼栋</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#16 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#16">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">公司企业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#16001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#16001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#16"/>
+        <rdfs:label xml:lang="zh">农林园艺</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#16002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#16002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#16"/>
+        <rdfs:label xml:lang="zh">公司</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#16003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#16003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#16"/>
+        <rdfs:label xml:lang="zh">园区</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#16004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#16004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#16"/>
+        <rdfs:label xml:lang="zh">厂矿</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">政府机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">中央机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">各级政府</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">行政单位</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">公检法机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">涉外机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">党派团体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">福利机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">政治教育机构</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">社会团体</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">民主党派</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#17011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#17011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#17"/>
+        <rdfs:label xml:lang="zh">居民委员会</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">出入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">高速公路出口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">高速公路入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">机场出口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">机场入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">车站出口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">车站入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">门</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18008 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18008">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">停车场出入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18009 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18009">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">自行车高速出口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18010 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18010">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">自行车高速入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#18011 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#18011">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#18"/>
+        <rdfs:label xml:lang="zh">自行车高速出入口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#19 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#19">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">自然地物</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#19001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#19001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#19"/>
+        <rdfs:label xml:lang="zh">山峰</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#19002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#19002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#19"/>
+        <rdfs:label xml:lang="zh">水系</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#19003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#19003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#19"/>
+        <rdfs:label xml:lang="zh">岛屿</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">行政地标</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">省</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">省级城市</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">地级市</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">区县</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">商圈</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">乡镇</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#20007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#20007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#20"/>
+        <rdfs:label xml:lang="zh">村庄</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#21 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#21">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">门址</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#21001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#21001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#21"/>
+        <rdfs:label xml:lang="zh">门址点</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#22 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#22">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">铁路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#22001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#22001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#22"/>
+        <rdfs:label xml:lang="zh">地铁/轻轨</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#22002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#22002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#22"/>
+        <rdfs:label xml:lang="zh">铁路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <rdfs:label xml:lang="zh">道路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23001 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23001">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">高速公路</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23002 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23002">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">路口</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23003 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23003">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">乡道</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23004 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23004">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">省道</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23005 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23005">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">国道</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23006 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23006">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">县道</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lkg.org/ont/source/baidumap/type#23007 -->
+
+    <owl:NamedIndividual rdf:about="http://lkg.org/ont/source/baidumap/type#23007">
+        <rdf:type rdf:resource="http://lkg.org/ont/source/baidumap#Type"/>
+        <hasParentType rdf:resource="http://lkg.org/ont/source/baidumap/type#23"/>
+        <rdfs:label xml:lang="zh">城市快速路</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

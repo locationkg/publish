@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://lkg.org/ont/core#"
+     xml:base="http://lkg.org/ont/core"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.org/vocab/frbr/core#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://lkg.org/ont/core">
+        <owl:versionIRI rdf:resource="http://lkg.org/ont/core/1.0.0"/>
+        <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-20130430"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/core#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://lkg.org/ont/core#hasLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntity"/>
+        <rdfs:range rdf:resource="http://lkg.org/ont/core#PlaceEntityLocation"/>
+        <rdfs:label xml:lang="en">hasLocation</rdfs:label>
+        <skos:definition xml:lang="en">Related PlaceEntityLocation object of the PlaceEntity object.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#hasName -->
+
+    <owl:ObjectProperty rdf:about="http://lkg.org/ont/core#hasName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntity"/>
+        <rdfs:range rdf:resource="http://lkg.org/ont/core#PlaceEntityName"/>
+        <rdfs:label xml:lang="en">hasName</rdfs:label>
+        <skos:definition xml:lang="en">related PlaceEntityName object of the PlaceEntity object</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#hasTag -->
+
+    <owl:ObjectProperty rdf:about="http://lkg.org/ont/core#hasTag">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntity"/>
+        <rdfs:range rdf:resource="http://lkg.org/ont/core#PlaceEntityTag"/>
+        <rdfs:label xml:lang="en">hasTag</rdfs:label>
+        <skos:definition xml:lang="en">The PlaceEntityTag obect of the PlaceEntity object.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://lkg.org/ont/core#hasType">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntity"/>
+        <rdfs:range rdf:resource="http://lkg.org/ont/core#PlaceEntityType"/>
+        <rdfs:label xml:lang="en">hasType</rdfs:label>
+        <skos:definition xml:lang="en">The PlaceEntityType object of the PlaceEntity object</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/core#matchProbability -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#matchProbability">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceMatch"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="en">matchProbability</rdfs:label>
+        <skos:definition xml:lang="en">The match probability of the PlaceMatch object</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#name -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#name">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntityName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <skos:definition xml:lang="en">The name of the object.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#strategy -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#strategy">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceLocationConflation"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceNameConflation"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceTagConflation"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceTypeConflation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">strategy</rdfs:label>
+        <skos:definition xml:lang="en">The stategy used for conflation.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#tag -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#tag">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntityTag"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">tag</rdfs:label>
+        <skos:definition xml:lang="en">The tag of the object</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#type -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#type">
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntityType"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">type</rdfs:label>
+        <skos:definition xml:lang="en">The type of the object</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://lkg.org/ont/core#version -->
+
+    <owl:DatatypeProperty rdf:about="http://lkg.org/ont/core#version">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://lkg.org/ont/core#PlaceEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">version</rdfs:label>
+        <skos:definition xml:lang="en">The version of PlaceEntity</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lkg.org/ont/core#DataSource -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#DataSource">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#MatchedPlaceCollection -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#MatchedPlaceCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceEntity -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceEntity">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">PlaceEntity</rdfs:label>
+        <skos:definition xml:lang="en">This class represents spatial entities with name, type, location and tag.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceEntityLocation -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceEntityLocation">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PlaceEntityLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceEntityName -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceEntityName">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PlaceEntityName</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceEntityTag -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceEntityTag">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PlaceEntityTag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceEntityType -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceEntityType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PlaceEntityType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceLocationConflation -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceLocationConflation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>PlaceLocationConflation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceMatch -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceMatch">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label xml:lang="en">PlaceMatch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceNameConflation -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceNameConflation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>PlaceNameConflation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceTagConflation -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceTagConflation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>PlaceTagConflation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://lkg.org/ont/core#PlaceTypeConflation -->
+
+    <owl:Class rdf:about="http://lkg.org/ont/core#PlaceTypeConflation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>PlaceTypeConflation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Geometry -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#NamedPlace -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#NamedPlace">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#SpatialObject -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
